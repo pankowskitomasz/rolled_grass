@@ -1,3 +1,14 @@
-$comingsoon-img: "../img/error_bg.jpg";
-$error-img: "../img/error_bg.jpg";
-$privacy-img: "../img/error_bg.jpg";
+$bg__coming-img: "../img/coming.jpg";
+$bg__error-img: "../img/error.jpg";
+$bg__privacy-img: "../img/privacy.jpg";
+$bg__classes:
+    "coming",
+    "error",
+    "privacy";
+$bg__img-arr: 
+    $bg__coming-img,
+    $bg__error-img,
+    $bg__privacy-img;
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow; 
